@@ -1,4 +1,5 @@
 import MeuComponente from "./components/MeuComponetes"
+import Contador from "./components/contador"
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
      <MeuBotao conteudo='depois '/>
 
      <MeuBotao conteudo='e por fim aqui'/>
+
+     <Contador/>
 
    </div>
   )
