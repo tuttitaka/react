@@ -1,5 +1,6 @@
 import MeuComponente from "./components/MeuComponetes"
 import Contador from "./components/contador"
+import MinhaLista from "./components/minhaLista"
 
 function App() {
 
@@ -15,6 +16,8 @@ function App() {
      <MeuBotao conteudo='e por fim aqui'/>
 
      <Contador/>
+
+     <MinhaLista/>
 
    </div>
   )
